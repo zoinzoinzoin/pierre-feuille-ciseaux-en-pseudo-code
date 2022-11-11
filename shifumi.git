@@ -86,8 +86,6 @@
     #Afficher "Vous etes le grand gagnant, enfin bon la chance du debutant"
 #Sinon si i est strictement egal a j    
     #Alors
-    #Afficher 'Match nul'   
-
-
-
-
+    #Afficher 'Match nul'  
+    
+#Fin   

@@ -1,2 +1,93 @@
 # pierre-feuille-ciseaux-en-pseudo-code Daniel COSTANTINI
+#Debut 
+#On admet une fonction random qui donnera au hasard les valeurs de 0 a 2
+
+#Assigner a a le retour de l'execution de la fonction input avec pour parametre 'choisissez le nombre de manche: '
+#Convertir le type de la variable a de string a integer 
+#Afficher du vide pour sauter une ligne 
+#Assigner a li les valeurs ('pierre','papier','ciseaux')
+#Afficher qu'on assigne ('pierre:  0')
+#Afficher qu'on assigne ('papier:  1')
+#Afficher qu'on assigne ('ciseaux: 2')
+#Afficher du vide pour sauter une ligne 
+#Assigner O a b
+#Assigner O a i
+#Assigner O a j
+#Tant que a est inégale a b
+    #Alors 
+    #Assigner a me le retour de l'execution de la fonction input avec pour parametre 'choisissez quel symbole vous allez jouer: '
+    #Convertir le type de la variable me de string a integer 
+    #Afficher du vide pour sauter une ligne 
+    #Si me est strictement inferieur a 3
+        #Alors
+        #Afficher la concatenation de 'vous avez choisi:' et de l'element de li a la position me
+        #Afficher du vide pour sauter une ligne 
+        #Assigner le retour de l'execution de la fonction randint(0,2) a ia
+        #Afficher la concatenation de 'ia choisi:' et de l'element de li a la position ia
+        #Afficher du vide pour sauter une ligne 
+        #Si me est different de ia
+            #Alors
+            #Si me est egale a 0 et ia est egale a 2
+                #Alors
+                #Afficher 'La pierre casse les ciseaux'
+                #Afficher du vide pour sauter une ligne 
+                #Afficher 'Vous avez gagne'
+            #Sinon si me est egale a 1 et ia est egale a 0   
+                #Alors
+                #Afficher 'Le papier couvre la pierre'
+                #Afficher du vide pour sauter une ligne 
+                #Afficher 'Vous avez gagne'
+            #Sinon si me est egale a 2 et ia est egale a 1  
+                #Alors
+                #Afficher 'Les ciseaux coupe le papier'
+                #Afficher du vide pour sauter une ligne            
+                #Afficher 'Vous avez gagne'
+            #Sinon si me est egale a 2 et ia est egale a 0  
+                #Alors
+                #Afficher 'La pierre casse les ciseaux'
+                #Afficher du vide pour sauter une ligne          
+                #Afficher 'Vous avez gagne'
+            #Sinon si me est egale a 0 et ia est egale a 1   
+                #Alors
+                #Afficher 'Le papier couvre la pierre'
+                #Afficher du vide pour sauter une ligne        
+                #Afficher 'Vous avez perdu'
+            #Sinon si me est egale a 1 et ia est egale a 2    
+                #Alors
+                #Afficher 'Les ciseaux coupe le papier'
+                #Afficher du vide pour sauter une ligne             
+                #Afficher 'Vous avez perdu'
+           #Afficher du vide pour sauter une ligne 
+        #Si me est strictemenent egal a ia    
+            #Alors
+            #Afficher "ce n'est pas tres efficace "
+            #Afficher du vide pour sauter une ligne 
+            #Afficher 'EGALITE'
+        #Si me est superieur a ia  
+            #Alors
+            #Assigner i+1 a i
+        #Sinon si me est inferieur a ia    
+            #Alors
+            #Assigner j+1 a i
+        #Afficher du vide pour sauter une ligne 
+        #Afficher la concatenation de 'votre score est de ', de la variable i, de " - le score de l'ia est de ", et de la variable j
+        #Assigner b+1 a B
+        #Afficher du vide pour sauter une ligne 
+        #Afficher du vide pour sauter une ligne 
+    #Sinon    
+        #Afficher "votre choix n'existe pas, faite un choix valide"
+#Afficher la concatenation de 'le score final est de ' , de la variable i , de ' - ' et de la variable j      
+#Afficher du vide pour sauter une ligne 
+#Si i est inferieur j
+    #Alors
+    #Afficher "L'ia a gagné, SHAME ON YOU"
+#Sinon si j est inferieur a i    
+    #Alors
+    #Afficher "Vous etes le grand gagnant, enfin bon la chance du debutant"
+#Sinon si i est strictement egal a j    
+    #Alors
+    #Afficher 'Match nul'   
+
+
+
 

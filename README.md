@@ -1,1 +1,1 @@
-# pierre-feuille-ciseaux-en-pseudo-code
+# pierre-feuille-ciseaux-en-pseudo-code Daniel COSTANTINI
